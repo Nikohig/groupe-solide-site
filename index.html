@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- SEO Meta Tags -->
+<meta content="Groupe Solid — Construction, rénovation et promotion immobilière à Koh Samui depuis 30 ans. Garantie structure 20 ans, équipe intégrée, biens à vendre en exclusivité." data-i18n-attr="content|meta.description" name="description"/>
+<meta content="construction Koh Samui, rénovation Samui, promotion immobilière Thailande, villa Koh Samui, biens à vendre Samui" name="keywords"/>
+<meta content="Groupe Solid" name="author"/>
+<meta content="index, follow" name="robots"/>
+<!-- Open Graph -->
+<meta content="website" property="og:type"/>
+<meta content="Groupe Solid" property="og:site_name"/>
+<meta content="Groupe Solid — Construction · Rénovation · Promotion immobilière · Koh Samui" data-i18n-attr="content|meta.og_title" property="og:title"/>
+<meta content="Construction, rénovation et promotion immobilière à Koh Samui depuis 30 ans. Du terrain à la clé, sous un même toit." data-i18n-attr="content|meta.og_description" property="og:description"/>
+<meta content="https://groupe-solide.com/images/hero.jpg" property="og:image"/>
+<meta content="https://groupe-solide.com" property="og:url"/>
+<meta content="fr_FR" property="og:locale"/>
+<meta content="en_US" property="og:locale:alternate"/>
+<meta content="th_TH" property="og:locale:alternate"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Groupe Solid — Construction · Rénovation · Promotion immobilière" name="twitter:title"/>
+<meta content="Construction, rénovation et promotion immobilière à Koh Samui depuis 30 ans." name="twitter:description"/>
+<meta content="https://groupe-solide.com/images/hero.jpg" name="twitter:image"/>
+<!-- Hreflang -->
+<link href="https://groupe-solide.com/" hreflang="fr" rel="alternate"/>
+<link href="https://groupe-solide.com/?lang=en" hreflang="en" rel="alternate"/>
+<link href="https://groupe-solide.com/?lang=th" hreflang="th" rel="alternate"/>
+<link href="https://groupe-solide.com/" hreflang="x-default" rel="alternate"/>
+<link href="https://groupe-solide.com/" rel="canonical"/>
+<!-- Favicon -->
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="favicon.svg" rel="apple-touch-icon"/>
+<meta content="#0a0a0a" name="theme-color"/>
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Groupe Solid",
+  "alternateName": "Solid Construction Samui",
+  "image": "https://groupe-solide.com/images/hero.jpg",
+  "description": "Construction, rénovation et promotion immobilière à Koh Samui depuis 30 ans.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Koh Samui",
+    "addressRegion": "Surat Thani",
+    "addressCountry": "TH"
+  },
+  "telephone": "+66953614489",
+  "email": "solidconstructionsamui@gmail.com",
+  "url": "https://groupe-solide.com",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "08:00",
+    "closes": "20:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61561124704359"
+  ]
+}
+</script>
+<title data-i18n="meta.title">Groupe Solid — Construction · Rénovation · Promotion immobilière · Koh Samui</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  /* ============ Reset & Variables ============ */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0a0a0a; --bg-soft: #131313; --bg-card: #181818;
+    --text: #f4f4f4; --text-muted: #9a9a9a; --text-dim: #6a6a6a;
+    --accent: #e6a821; --accent-hover: #f0b730;
+    --border: rgba(255,255,255,0.08); --border-strong: rgba(255,255,255,0.18);
+    --max-width: 1400px;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Manrope', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+  a { color: inherit; text-decoration: none; }
+  img { max-width: 100%; display: block; }
+  body::before {
+    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 9999; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  /* ============ Top Bar ============ */
+  .topbar { background: #050505; border-bottom: 1px solid var(--border); padding: 10px 0; font-size: 13px; color: var(--text-muted); }
+  .topbar-inner { max-width: var(--max-width); margin: 0 auto; padding: 0 32px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+  .topbar-info { display: flex; gap: 28px; flex-wrap: wrap; }
+  .topbar-info span { display: inline-flex; align-items: center; gap: 8px; }
+  .topbar-info .icon { color: var(--accent); font-size: 14px; }
+  .topbar-socials { display: flex; gap: 14px; }
+  .topbar-socials a { width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--border); border-radius: 50%; transition: all 0.25s ease; font-size: 12px; }
+  .topbar-socials a:hover { background: var(--accent); border-color: var(--accent); color: #000; }
+  /* ============ Navbar ============ */
+  .navbar { position: absolute; top: 44px; left: 0; right: 0; z-index: 100; padding: 18px 0; }
+  .navbar-inner { max-width: var(--max-width); margin: 0 auto; padding: 0 32px; display: flex; justify-content: space-between; align-items: center; }
+  .logo { display: inline-flex; flex-direction: column; align-items: center; color: var(--text); line-height: 1; text-decoration: none; }
+  .logo-frame { position: relative; width: 72px; height: 64px; }
+  .logo-diamond { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--accent); }
+  .logo-wordmark { font-family: 'Bebas Neue', sans-serif; font-size: 21px; letter-spacing: 3px; margin-top: 7px; white-space: nowrap; line-height: 1; color: var(--text); }
+  .logo-wordmark .accent { color: var(--accent); }
+  .nav-links { display: flex; list-style: none; gap: 36px; align-items: center; }
+  .nav-links a { font-size: 14px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; position: relative; transition: color 0.25s ease; }
+  .nav-links a::after { content: ''; position: absolute; bottom: -8px; left: 0; width: 0; height: 2px; background: var(--accent); transition: width 0.3s ease; }
+  .nav-links a:hover { color: var(--accent); }
+  .nav-links a:hover::after { width: 100%; }
+  .nav-cta { padding: 12px 24px; background: var(--accent); color: #000 !important; border-radius: 2px; transition: background 0.25s ease; }
+  .nav-cta:hover { background: var(--accent-hover); }
+  .nav-cta::after { display: none; }
+  /* ============ Category Bar ============ */
+  .category-bar { position: absolute; top: 192px; left: 0; right: 0; z-index: 99; width: 100%; }
+  .category-bar-inner { width: 100%; display: grid; grid-template-columns: repeat(6, 1fr); background: rgba(8,8,8,0.7); border-top: 1px solid rgba(230,168,33,0.25); border-bottom: 1px solid rgba(230,168,33,0.25); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); overflow: hidden; height: 40px; }
+  .cat-tile { text-align: center; background: transparent; border-right: 1px solid rgba(255,255,255,0.10); transition: all 0.3s cubic-bezier(0.4,0,0.2,1); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; height: 100%; }
+  .cat-tile:last-child { border-right: none; }
+  .cat-tile::before { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: var(--accent); transform: scaleX(0); transform-origin: center; transition: transform 0.35s cubic-bezier(0.4,0,0.2,1); }
+  .cat-tile:hover { background: rgba(230,168,33,0.12); }
+  .cat-tile:hover::before { transform: scaleX(1); }
+  .cat-label { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: var(--text); line-height: 1; white-space: nowrap; transition: color 0.25s ease; }
+  .cat-tile:hover .cat-label { color: var(--accent); }
+  /* ============ Hero ============ */
+  .hero { position: relative; min-height: 100vh; display: flex; align-items: center; overflow: hidden; padding: 280px 0 100px; }
+  .hero-bg { position: absolute; inset: 0; overflow: hidden; z-index: 0; background-image: linear-gradient(180deg,rgba(10,10,10,0.50) 0%,rgba(10,10,10,0.30) 40%,rgba(10,10,10,0.55) 100%), url('images/hero.jpg'); background-size: cover; background-position: center; animation: slowZoom 30s ease-in-out infinite alternate; }
+  @keyframes slowZoom { from { transform: scale(1); } to { transform: scale(1.08); } }
+  .hero-vignette { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 100% at 50% 50%,transparent 30%,rgba(0,0,0,0.4) 80%,rgba(0,0,0,0.7) 100%), linear-gradient(90deg,rgba(0,0,0,0.6) 0%,transparent 30%,transparent 70%,rgba(0,0,0,0.3) 100%); z-index: 1; pointer-events: none; }
+  .hero-inner { position: relative; z-index: 2; max-width: var(--max-width); margin: 0 auto; padding: 0 32px; width: 100%; }
+  .hero-kicker { display: inline-flex; align-items: center; gap: 14px; font-size: 13px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); margin-bottom: 28px; opacity: 0; animation: fadeUp 0.8s ease 0.2s forwards; }
+  .hero-kicker::before { content: ''; width: 40px; height: 1px; background: var(--accent); }
+  .hero-pretitle { font-family: 'Bebas Neue', sans-serif; font-size: clamp(20px,2.5vw,32px); letter-spacing: 6px; text-transform: uppercase; color: var(--text); margin-bottom: 8px; opacity: 0; animation: fadeUp 0.8s ease 0.4s forwards; }
+  .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(56px,9vw,140px); line-height: 0.9; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 32px; max-width: 1000px; opacity: 0; animation: fadeUp 0.8s ease 0.5s forwards; }
+  .hero h1 .accent { color: var(--accent); }
+  .hero-subtitle { font-size: clamp(16px,1.4vw,19px); color: #e6e6e6; max-width: 620px; margin-bottom: 48px; line-height: 1.7; text-shadow: 0 1px 12px rgba(0,0,0,0.5); opacity: 0; animation: fadeUp 0.8s ease 0.6s forwards; }
+  .hero-ctas { display: flex; gap: 18px; flex-wrap: wrap; opacity: 0; animation: fadeUp 0.8s ease 0.8s forwards; }
+  .btn { display: inline-flex; align-items: center; gap: 12px; padding: 18px 36px; font-family: 'Manrope', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; cursor: pointer; transition: all 0.3s cubic-bezier(0.4,0,0.2,1); border: none; border-radius: 2px; position: relative; overflow: hidden; }
+  .btn-primary { background: var(--accent); color: #000; }
+  .btn-primary:hover { background: var(--accent-hover); transform: translateY(-2px); box-shadow: 0 12px 30px rgba(230,168,33,0.3); }
+  .btn-outline { background: transparent; color: var(--text); border: 1.5px solid var(--border-strong); }
+  .btn-outline:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+  .btn .arrow { transition: transform 0.3s ease; }
+  .btn:hover .arrow { transform: translateX(4px); }
+  .hero-scroll { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); z-index: 2; font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--text-muted); display: flex; flex-direction: column; align-items: center; gap: 12px; opacity: 0; animation: fadeUp 0.8s ease 1.2s forwards; }
+  .hero-scroll::after { content: ''; width: 1px; height: 50px; background: linear-gradient(to bottom, var(--accent), transparent); animation: scrollPulse 2s ease infinite; }
+  @keyframes scrollPulse { 0%,100% { opacity: 0.3; transform: scaleY(1); } 50% { opacity: 1; transform: scaleY(1.2); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+  /* ============ Section commons ============ */
+  section { padding: 120px 0; position: relative; }
+  .container { max-width: var(--max-width); margin: 0 auto; padding: 0 32px; }
+  .section-header { margin-bottom: 80px; max-width: 720px; }
+  .eyebrow { display: inline-flex; align-items: center; gap: 14px; font-size: 12px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); margin-bottom: 24px; }
+  .eyebrow::before { content: ''; width: 32px; height: 1px; background: var(--accent); }
+  .section-header h2 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px,5vw,64px); line-height: 1; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 24px; }
+  .section-header p { font-size: 17px; color: var(--text-muted); line-height: 1.7; }
+  .section-header p strong { color: var(--text); font-weight: 600; }
+  /* ============ Pillars ============ */
+  .pillars { background: var(--bg-soft); }
+  .pillars-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .pillar { background: var(--bg-card); border: 1px solid var(--border); padding: 48px 38px; position: relative; transition: all 0.4s cubic-bezier(0.4,0,0.2,1); overflow: hidden; }
+  .pillar::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform 0.5s cubic-bezier(0.4,0,0.2,1); }
+  .pillar:hover { transform: translateY(-8px); border-color: var(--border-strong); background: #1d1d1d; }
+  .pillar:hover::before { transform: scaleX(1); }
+  .pillar-number { font-family: 'Bebas Neue', sans-serif; font-size: 72px; line-height: 1; color: var(--accent); opacity: 0.15; position: absolute; top: 24px; right: 32px; transition: opacity 0.4s ease; }
+  .pillar:hover .pillar-number { opacity: 0.4; }
+  .pillar-icon { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; background: rgba(230,168,33,0.1); border: 1px solid rgba(230,168,33,0.3); border-radius: 4px; margin-bottom: 28px; font-size: 24px; }
+  .pillar h3 { font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 18px; }
+  .pillar p { color: var(--text-muted); font-size: 15px; margin-bottom: 28px; line-height: 1.7; }
+  .pillar-link { display: inline-flex; align-items: center; gap: 10px; font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); transition: gap 0.3s ease; }
+  .pillar-link:hover { gap: 16px; }
+  /* ============ Biens ============ */
+  .biens-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .bien-card { background: var(--bg-card); border: 1px solid var(--border); overflow: hidden; transition: all 0.4s ease; }
+  .bien-card:hover { transform: translateY(-6px); border-color: var(--accent); }
+  .bien-image { aspect-ratio: 4/3; background: linear-gradient(135deg,#2a2a2a 0%,#1a1a1a 100%); position: relative; display: flex; align-items: center; justify-content: center; color: var(--text-dim); font-size: 13px; letter-spacing: 2px; text-transform: uppercase; }
+  .bien-image::after { content: ''; position: absolute; inset: 20px; border: 1px dashed var(--border-strong); }
+  .bien-tag { position: absolute; top: 20px; left: 20px; background: var(--accent); color: #000; padding: 6px 14px; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; z-index: 2; }
+  .bien-content { padding: 28px; }
+  .bien-type { font-size: 11px; letter-spacing: 2px; color: var(--accent); text-transform: uppercase; margin-bottom: 10px; }
+  .bien-title { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px; }
+  .bien-location { font-size: 14px; color: var(--text-muted); margin-bottom: 20px; }
+  .bien-price { font-family: 'Bebas Neue', sans-serif; font-size: 24px; color: var(--accent); }
+  .bien-card--fiche { display:flex; flex-direction:column; }
+  .bien-card--fiche .bien-fiche { display:block; line-height:0; background:#0e0e0e; overflow:hidden; }
+  .bien-card--fiche .bien-fiche img { width:100%; height:auto; display:block; transition: transform .5s ease; }
+  .bien-card--fiche:hover .bien-fiche img { transform: scale(1.03); }
+  .bien-link { display:inline-block; margin-top:18px; font-size:12px; letter-spacing:2px; text-transform:uppercase; color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:border-color .3s ease; }
+  .bien-link:hover { border-bottom-color:var(--accent); }
+  .bien-card--pro { display:flex; flex-direction:column; }
+  .bien-card--pro .bien-fiche { position:relative; display:block; height:190px; overflow:hidden; background:#0e0e0e; }
+  .bien-card--pro .bien-fiche img { width:100%; height:100%; object-fit:cover; object-position:50% 27%; display:block; transition:transform .6s ease; }
+  .bien-card--pro:hover .bien-fiche img { transform:scale(1.05); }
+  .bien-specs { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:18px 0; padding:16px 0; border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+  .bien-specs .spec { display:flex; flex-direction:column; gap:4px; }
+  .bien-specs .spec-label { font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:var(--text-dim); }
+  .bien-specs .spec-val { font-size:15px; color:var(--text); font-weight:600; line-height:1.2; }
+  .bien-specs .spec-val small { display:block; font-size:10px; color:var(--text-muted); font-weight:400; letter-spacing:0; }
+  .bien-feats { list-style:none; padding:0; margin:0 0 22px; }
+  .bien-feats li { position:relative; padding-left:18px; font-size:13px; color:var(--text-muted); margin-bottom:9px; line-height:1.45; }
+  .bien-feats li::before { content:''; position:absolute; left:0; top:7px; width:6px; height:6px; background:var(--accent); }
+  .bien-foot { margin-bottom:18px; }
+  .bien-actions { display:flex; gap:20px; flex-wrap:wrap; align-items:center; }
+  .bien-link--alt { color:var(--text-muted); }
+  .bien-link--alt:hover { color:var(--accent); }
+  .section-footer { margin-top: 60px; text-align: center; }
+  /* ============ Réalisations ============ */
+  .realisations { background: var(--bg-soft); }
+  .realisations-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 16px; height: 600px; }
+  .realisation { background: linear-gradient(135deg,#252525 0%,#151515 100%); border: 1px solid var(--border); position: relative; overflow: hidden; display: flex; align-items: flex-end; padding: 30px; transition: all 0.4s ease; cursor: pointer; }
+  .realisation::before { content: ''; position: absolute; inset: 16px; border: 1px dashed var(--border); }
+  .realisation:hover { border-color: var(--accent); }
+  .realisation:nth-child(1) { grid-row: span 2; }
+  .realisation-label { position: relative; z-index: 2; }
+  .realisation-label .type { font-size: 11px; letter-spacing: 2px; color: var(--accent); text-transform: uppercase; margin-bottom: 6px; }
+  .realisation-label .name { font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase; }
+  /* ============ Stats / Pourquoi ============ */
+  .stats-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .stat { padding: 60px 30px; text-align: center; border-right: 1px solid var(--border); transition: background 0.3s ease; }
+  .stat:last-child { border-right: none; }
+  .stat:hover { background: var(--bg-soft); }
+  .stat-number { font-family: 'Bebas Neue', sans-serif; font-size: 64px; line-height: 1; color: var(--accent); margin-bottom: 12px; }
+  .stat-label { font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted); }
+  .pourquoi-text { margin-top: 80px; display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: start; }
+  .pourquoi-text h3 { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 1px; text-transform: uppercase; line-height: 1; }
+  .pourquoi-text p { color: var(--text-muted); font-size: 16px; line-height: 1.8; }
+  .pourquoi-text p strong { color: var(--text); font-weight: 600; }
+  /* ============ CTA Final ============ */
+  .cta-final { background: radial-gradient(ellipse 70% 50% at 50% 50%,rgba(230,168,33,0.08) 0%,transparent 60%), linear-gradient(135deg,#0a0a0a 0%,#1a1208 50%,#0a0a0a 100%); text-align: center; position: relative; overflow: hidden; }
+  .cta-final::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(230,168,33,0.04) 1px,transparent 1px), linear-gradient(90deg,rgba(230,168,33,0.04) 1px,transparent 1px); background-size: 80px 80px; pointer-events: none; }
+  .cta-final .container { position: relative; z-index: 1; }
+  .cta-final h2 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px,6vw,80px); letter-spacing: 1px; text-transform: uppercase; line-height: 1; margin-bottom: 24px; max-width: 900px; margin-inline: auto; }
+  .cta-final h2 .accent { color: var(--accent); font-style: italic; }
+  .cta-final p { font-size: 18px; color: var(--text-muted); margin-bottom: 48px; max-width: 600px; margin-inline: auto; }
+  /* ============ Footer ============ */
+  footer { background: #050505; padding: 80px 0 30px; border-top: 1px solid var(--border); }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 50px; margin-bottom: 60px; }
+  .footer-col h4 { font-family: 'Bebas Neue', sans-serif; font-size: 16px; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 24px; color: var(--accent); }
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 12px; font-size: 14px; color: var(--text-muted); }
+  .footer-col a:hover { color: var(--accent); }
+  .footer-brand .logo { margin-bottom: 24px; align-items: flex-start; }
+  .footer-brand p { color: var(--text-muted); font-size: 14px; line-height: 1.7; margin-bottom: 24px; max-width: 360px; }
+  .partner-logos { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
+  .partner-chip { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-dim); padding: 6px 12px; border: 1px solid var(--border); border-radius: 2px; }
+  .footer-bottom { border-top: 1px solid var(--border); padding-top: 30px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; font-size: 13px; color: var(--text-dim); }
+  /* ============ Activity Detail ============ */
+  .activity-detail { background: var(--bg-soft); position: relative; overflow: hidden; }
+  .activity-detail--alt { background: var(--bg); }
+  .activity-detail--alt .activity-intro { order: 2; }
+  .activity-detail--alt .activity-stats { order: 1; }
+  .activity-detail::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg,transparent,var(--accent),transparent); opacity: 0.4; }
+  .activity-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+  .activity-intro h2 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(48px,6vw,88px); line-height: 0.95; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 32px; }
+  .activity-intro h2 .accent { color: var(--accent); }
+  .activity-lead { font-size: 18px; line-height: 1.7; color: var(--text); margin-bottom: 28px; }
+  .activity-text { color: var(--text-muted); font-size: 16px; line-height: 1.8; margin-bottom: 20px; }
+  .activity-text strong { color: var(--text); font-weight: 600; }
+  .activity-signature { font-style: italic; color: var(--accent); font-size: 16px; line-height: 1.7; margin-top: 32px; padding-left: 20px; border-left: 2px solid var(--accent); }
+  .activity-stats { display: grid; grid-template-columns: 1fr; gap: 28px; }
+  .stat-block { background: var(--bg-card); border: 1px solid var(--border); padding: 36px 40px; display: flex; align-items: center; gap: 32px; transition: all 0.4s cubic-bezier(0.4,0,0.2,1); position: relative; overflow: hidden; }
+  .stat-block::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--accent); transform: scaleY(0); transform-origin: top; transition: transform 0.5s cubic-bezier(0.4,0,0.2,1); }
+  .stat-block:hover { background: #1d1d1d; border-color: var(--border-strong); transform: translateX(4px); }
+  .stat-block:hover::before { transform: scaleY(1); }
+  .stat-num { font-family: 'Bebas Neue', sans-serif; font-size: 80px; line-height: 0.85; color: var(--accent); letter-spacing: 1px; min-width: 130px; white-space: nowrap; }
+  .stat-num .small { font-size: 32px; vertical-align: top; }
+  .stat-label { font-size: 14px; line-height: 1.5; color: var(--text-muted); text-transform: uppercase; letter-spacing: 2px; font-weight: 600; }
+  .activity-cta { margin-top: 48px; }
+  /* ============ Galerie chantier ============ */
+  .chantier-gallery { padding: 140px 0 120px; background: var(--bg); border-top: 1px solid #1a1a1a; border-bottom: 1px solid #1a1a1a; }
+  .chantier-gallery .container { max-width: 1400px; }
+  .chantier-intro { text-align: center; margin-bottom: 100px; max-width: 720px; margin-left: auto; margin-right: auto; }
+  .chantier-intro .eyebrow { display: inline-block; margin-bottom: 20px; }
+  .chantier-intro h3 { font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: 72px; line-height: 0.95; letter-spacing: 0.005em; margin: 0 0 28px; }
+  .chantier-intro h3 .accent { color: var(--accent); font-style: italic; }
+  .chantier-intro p { color: var(--text-muted); font-size: 17px; line-height: 1.6; margin: 0; }
+  .chantier-phase { margin-bottom: 90px; }
+  .chantier-phase:last-child { margin-bottom: 0; }
+  .chantier-phase-header { display: flex; align-items: center; gap: 28px; margin-bottom: 36px; padding-bottom: 20px; border-bottom: 1px solid #1a1a1a; }
+  .chantier-phase-num { font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: 64px; line-height: 1; color: var(--accent); letter-spacing: 0.01em; flex-shrink: 0; }
+  .chantier-phase-text h4 { font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: 36px; letter-spacing: 0.03em; line-height: 1; margin: 0 0 6px; }
+  .chantier-phase-text p { color: var(--text-muted); font-size: 14px; margin: 0; letter-spacing: 0.02em; }
+  .chantier-phase-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+  .chantier-photo { position: relative; overflow: hidden; background: #1a1a1a; }
+  .chantier-photo img { width: 100%; aspect-ratio: 16/10; object-fit: cover; display: block; transition: transform 0.5s ease, filter 0.3s ease; filter: brightness(0.92); }
+  .chantier-photo:hover img { transform: scale(1.03); filter: brightness(1); }
+  .chantier-signature { margin-top: 100px; position: relative; background: #0a0a0a; border: 1px solid #1a1a1a; overflow: hidden; }
+  .chantier-signature img { width: 100%; aspect-ratio: 21/9; object-fit: cover; display: block; filter: brightness(0.85); }
+  .chantier-signature-caption { position: absolute; bottom: 0; left: 0; right: 0; padding: 40px; display: flex; align-items: center; gap: 28px; background: linear-gradient(to top,rgba(10,10,10,0.92) 0%,rgba(10,10,10,0.5) 60%,transparent 100%); }
+  .chantier-signature-caption .chantier-phase-num { font-size: 56px; }
+  .chantier-signature-caption h4 { font-family: 'Bebas Neue', sans-serif; font-weight: 400; font-size: 32px; letter-spacing: 0.03em; line-height: 1; margin: 0 0 6px; color: #fff; }
+  .chantier-signature-caption p { color: rgba(255,255,255,0.75); font-size: 15px; margin: 0; }
+  /* ============ Language Selector ============ */
+  .lang-selector { display: flex; gap: 2px; margin-right: 16px; font-family: 'Manrope', sans-serif; }
+  .lang-btn { background: transparent; border: 1px solid var(--border); color: var(--text-muted); padding: 4px 10px; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; cursor: pointer; transition: all 0.2s ease; border-radius: 2px; font-family: inherit; }
+  .lang-btn:hover { color: var(--text); border-color: var(--border-strong); }
+  .lang-btn.active { color: var(--accent); border-color: var(--accent); background: rgba(230,168,33,0.08); }
+  .accent { color: var(--accent); font-style: italic; }
+  /* ============ Responsive ============ */
+  @media (max-width: 1024px) {
+    .cat-label { font-size: 11px; letter-spacing: 1.5px; }
+    .pillars-grid, .biens-grid { grid-template-columns: 1fr 1fr; }
+    .realisations-grid { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3,220px); height: auto; }
+    .realisation:nth-child(1) { grid-row: span 1; grid-column: span 2; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .stat { border-right: none; border-bottom: 1px solid var(--border); }
+    .stat:nth-child(odd) { border-right: 1px solid var(--border); }
+    .pourquoi-text { grid-template-columns: 1fr; gap: 24px; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .activity-grid { grid-template-columns: 1fr; gap: 50px; }
+    .chantier-phase-grid { grid-template-columns: repeat(2,1fr); }
+    .chantier-intro h3 { font-size: 56px; }
+  }
+  @media (max-width: 640px) {
+    .topbar-inner { justify-content: center; text-align: center; }
+    .topbar-info { gap: 14px; justify-content: center; }
+    .navbar { top: 72px; }
+    .category-bar { top: 230px; }
+    .category-bar-inner { height: auto; grid-template-columns: repeat(3,1fr); }
+    .cat-tile { padding: 9px 4px; border-bottom: 1px solid rgba(255,255,255,0.10); }
+    .cat-label { font-size: 10px; letter-spacing: 1px; white-space: normal; }
+    .hero { padding: 330px 0 90px; min-height: auto; }
+    .pillars-grid, .biens-grid { grid-template-columns: 1fr; }
+    .realisations-grid { grid-template-columns: 1fr; grid-template-rows: repeat(5,200px); }
+    .realisation:nth-child(1) { grid-column: span 1; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .stat:nth-child(odd) { border-right: none; }
+    .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+    .topbar-socials { display: none; }
+    section { padding: 80px 0; }
+    .stat-block { padding: 24px 24px; gap: 20px; }
+    .stat-num { font-size: 60px; min-width: 90px; }
+    .stat-label { font-size: 12px; letter-spacing: 1.5px; }
+    .chantier-gallery { padding: 80px 0 60px; }
+    .chantier-phase-grid { grid-template-columns: 1fr; }
+    .chantier-intro h3 { font-size: 44px; }
+    .chantier-phase-num { font-size: 48px; }
+    .chantier-phase-text h4 { font-size: 28px; }
+    .chantier-phase-header { gap: 18px; margin-bottom: 24px; }
+    .chantier-phase { margin-bottom: 60px; }
+    .chantier-signature-caption { padding: 24px; gap: 18px; }
+    .chantier-signature-caption .chantier-phase-num { font-size: 40px; }
+    .chantier-signature-caption h4 { font-size: 24px; }
+    .chantier-signature img { aspect-ratio: 16/10; }
+    @media (max-width: 768px) {
+      .lang-selector { margin-right: 8px; }
+      .lang-btn { padding: 3px 7px; font-size: 10px; }
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ Top Bar ============ -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-info">
+      <span data-i18n-html="topbar.phone"><span class="icon">📞</span> 095-361-4489</span>
+      <span data-i18n-html="topbar.email"><span class="icon">✉</span> solidconstructionsamui@gmail.com</span>
+      <span data-i18n-html="topbar.hours"><span class="icon">🕐</span> Lun-Dim · 8h-20h</span>
+    </div>
+    <div class="lang-selector">
+      <button aria-label="Français" class="lang-btn active" data-lang="fr">FR</button>
+      <button aria-label="English" class="lang-btn" data-lang="en">EN</button>
+      <button aria-label="ไทย" class="lang-btn" data-lang="th">TH</button>
+    </div>
+    <div class="topbar-socials">
+      <!-- TODO: Remplacer les href="#" par les vrais liens réseaux sociaux -->
+      <a aria-label="Facebook" href="https://www.facebook.com/profile.php?id=61561124704359" target="_blank" rel="noopener">f</a>
+      <!-- Icônes masquées tant que les comptes n'existent pas — retirer les commentaires et mettre les vraies URLs pour les réactiver
+      <a aria-label="Instagram" href="#" target="_blank" rel="noopener">ig</a>
+      <a aria-label="LinkedIn" href="#" target="_blank" rel="noopener">in</a>
+      -->
+    </div>
+  </div>
+</div>
+
+<!-- ============ Navbar ============ -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="logo" href="#">
+      <div class="logo-frame">
+        <svg class="logo-diamond" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+            <path d="M 120 60 L 240 60 L 290 95 L 330 130 L 295 155 L 180 290 L 65 155 L 30 130 L 70 95 Z"/>
+            <line x1="30" x2="330" y1="130" y2="130"/>
+            <line x1="120" x2="70" y1="60" y2="95"/><line x1="240" x2="290" y1="60" y2="95"/>
+            <line x1="120" x2="100" y1="60" y2="130"/><line x1="240" x2="260" y1="60" y2="130"/>
+            <line x1="120" x2="180" y1="60" y2="130"/><line x1="240" x2="180" y1="60" y2="130"/>
+            <line x1="70" x2="100" y1="95" y2="130"/><line x1="290" x2="260" y1="95" y2="130"/>
+            <line x1="65" x2="100" y1="155" y2="130"/><line x1="295" x2="260" y1="155" y2="130"/>
+            <line x1="100" x2="180" y1="130" y2="290"/><line x1="260" x2="180" y1="130" y2="290"/>
+            <line x1="180" x2="180" y1="130" y2="290"/>
+            <line x1="30" x2="100" y1="130" y2="220"/><line x1="330" x2="260" y1="130" y2="220"/>
+            <line x1="100" x2="180" y1="220" y2="290"/><line x1="260" x2="180" y1="220" y2="290"/>
+            <line x1="100" x2="180" y1="220" y2="130"/><line x1="260" x2="180" y1="220" y2="130"/>
+          </g>
+        </svg>
+      </div>
+      <span class="logo-wordmark">SOLID <span class="accent">GROUPE</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a class="nav-cta" data-i18n="nav.contact" href="https://wa.me/66953614489?text=Bonjour%2C%20je%20vous%20contacte%20depuis%20votre%20site%20internet%20concernant%20un%20projet." rel="noopener" target="_blank">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ Category Bar ============ -->
+<div class="category-bar">
+  <div class="category-bar-inner">
+    <a class="cat-tile" href="#construction"><span class="cat-label" data-i18n="cat.construction">Construction</span></a>
+    <a class="cat-tile" href="#renovation"><span class="cat-label" data-i18n="cat.renovation">Rénovation</span></a>
+    <a class="cat-tile" href="#promotion"><span class="cat-label" data-i18n="cat.promotion">Promotion</span></a>
+    <a class="cat-tile" href="#fourniture"><span class="cat-label" data-i18n="cat.fourniture">Fourniture ameublement</span></a>
+    <a class="cat-tile" href="#biens"><span class="cat-label" data-i18n="cat.biens">Biens à vendre</span></a>
+    <a class="cat-tile" href="#realisations"><span class="cat-label" data-i18n="cat.realisations">Réalisations</span></a>
+  </div>
+</div>
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-vignette"></div>
+  <div class="hero-inner">
+    <div class="hero-kicker">Groupe Solid · Koh Samui, Thaïlande</div>
+    <p class="hero-pretitle" data-i18n="hero.pretitle">Des projets bâtis sur des</p>
+    <h1 data-i18n-html="hero.title_html">Fondations <span class="accent">Solides</span></h1>
+    <p class="hero-subtitle" data-i18n="hero.subtitle">Construction, rénovation, promotion immobilière — votre partenaire de confiance, du terrain à la clé.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" data-i18n="hero.cta1" href="#biens">Découvrir nos biens <span class="arrow">→</span></a>
+      <a class="btn btn-outline" data-i18n="hero.cta2" href="#realisations">Nos réalisations <span class="arrow">→</span></a>
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<!-- ============ Pillars ============ -->
+<section class="pillars" id="pillars">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Nos activités</span>
+      <h2>Trois métiers,<br/>une exigence</h2>
+      <p>De la première pierre à la livraison, Solid accompagne ses clients sur l'ensemble du cycle immobilier — avec une exigence constante sur la qualité et les finitions.</p>
+    </div>
+    <div class="pillars-grid">
+      <article class="pillar">
+        <div class="pillar-number">01</div>
+        <div class="pillar-icon">🏗️</div>
+        <h3>Construction</h3>
+        <p>De la fondation à la livraison, nous bâtissons des maisons, villas et résidences pensées pour durer.</p>
+        <a class="pillar-link" href="#construction">En savoir plus →</a>
+      </article>
+      <article class="pillar">
+        <div class="pillar-number">02</div>
+        <div class="pillar-icon">🔨</div>
+        <h3>Rénovation</h3>
+        <p>Redonner vie à un bien, moderniser, valoriser — nous transformons l'existant avec le même niveau d'exigence.</p>
+        <a class="pillar-link" href="#renovation">En savoir plus →</a>
+      </article>
+      <article class="pillar">
+        <div class="pillar-number">03</div>
+        <div class="pillar-icon">🏢</div>
+        <h3>Promotion immobilière</h3>
+        <p>Lotissements, condominiums, immeubles — nous concevons et développons des projets à fort potentiel, à Koh Samui et au-delà.</p>
+        <a class="pillar-link" href="#promotion">En savoir plus →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Construction ============ -->
+<section class="activity-detail" id="construction">
+  <div class="container">
+    <div class="activity-grid">
+      <div class="activity-intro">
+        <span class="eyebrow">01 · Nos activités</span>
+        <h2>Construire <span class="accent">solide</span>,<br/>depuis 30 ans.</h2>
+        <p class="activity-lead" data-i18n-html="s1.p1">Trois décennies à bâtir, quinze ans à perfectionner notre savoir-faire à Koh Samui.</p>
+        <p class="activity-text" data-i18n-html="s1.p2">Chaque chantier est supervisé en continu par un <strong>professionnel du bâtiment qualifié</strong>.</p>
+        <p class="activity-text"><strong>Tous nos ouvrages bénéficient d'une garantie structure de 20 ans.</strong></p>
+        <p class="activity-signature" data-i18n="s1.closing">Construire avec Solid, c'est s'offrir la tranquillité d'un travail bien fait, par ceux qui le font depuis toujours.</p>
+        <div class="activity-cta">
+          <a class="btn btn-primary" href="https://wa.me/66953614489?text=Bonjour%2C%20je%20vous%20contacte%20au%20sujet%20d%27un%20projet%20de%20construction." rel="noopener" target="_blank">Parlons de votre projet <span class="arrow">→</span></a>
+        </div>
+      </div>
+      <div class="activity-stats">
+        <div class="stat-block"><div class="stat-num">30<span class="small">+</span></div><div class="stat-label">Années<br/>d'expérience</div></div>
+        <div class="stat-block"><div class="stat-num">15</div><div class="stat-label">Années dédiées<br/>à Koh Samui</div></div>
+        <div class="stat-block"><div class="stat-num">20<span class="small">ans</span></div><div class="stat-label">De garantie structure<br/>sur chaque ouvrage</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Galerie chantier ============ -->
+<section class="chantier-gallery">
+  <div class="container">
+    <div class="chantier-intro">
+      <span class="eyebrow" data-i18n="gallery.eyebrow">Chantier en images</span>
+      <h3 data-i18n-html="gallery.title_html">Du terrain<br/>à la <span class="accent">livraison</span>.</h3>
+      <p data-i18n="gallery.intro">Aperçu d'un programme Solid, du premier coup de pelle aux clés remises.</p>
+    </div>
+    <div class="chantier-phase">
+      <div class="chantier-phase-header"><span class="chantier-phase-num">01</span><div class="chantier-phase-text"><h4 data-i18n="gallery.phase1_title">Le terrain</h4><p data-i18n="gallery.phase1_sub">Étude, terrassement, préparation</p></div></div>
+      <div class="chantier-phase-grid"><div class="chantier-photo"><img alt="Étude et terrassement du terrain avant construction d'une villa à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-01.jpg"/></div><div class="chantier-photo"><img alt="Étude et terrassement du terrain avant construction d'une villa à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-02.jpg"/></div></div>
+    </div>
+    <div class="chantier-phase">
+      <div class="chantier-phase-header"><span class="chantier-phase-num">02</span><div class="chantier-phase-text"><h4 data-i18n="gallery.phase2_title">Les fondations</h4><p data-i18n="gallery.phase2_sub">Soubassement, semelles, poteaux porteurs</p></div></div>
+      <div class="chantier-phase-grid">
+        <div class="chantier-photo"><img alt="Fondations, semelles et poteaux porteurs d'une construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-03.jpg"/></div><div class="chantier-photo"><img alt="Fondations, semelles et poteaux porteurs d'une construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-04.jpg"/></div>
+        <div class="chantier-photo"><img alt="Fondations, semelles et poteaux porteurs d'une construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-05.jpg"/></div><div class="chantier-photo"><img alt="Fondations, semelles et poteaux porteurs d'une construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-06.jpg"/></div>
+        <div class="chantier-photo"><img alt="Fondations, semelles et poteaux porteurs d'une construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-07.jpg"/></div><div class="chantier-photo"><img alt="Fondations, semelles et poteaux porteurs d'une construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-08.jpg"/></div>
+        <div class="chantier-photo"><img alt="Fondations, semelles et poteaux porteurs d'une construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-09.jpg"/></div>
+      </div>
+    </div>
+    <div class="chantier-phase">
+      <div class="chantier-phase-header"><span class="chantier-phase-num">03</span><div class="chantier-phase-text"><h4 data-i18n="gallery.phase3_title">Coffrage &amp; béton</h4><p data-i18n="gallery.phase3_sub">Ferraillage, coffrage, coulage des structures</p></div></div>
+      <div class="chantier-phase-grid">
+        <div class="chantier-photo"><img alt="Ferraillage, coffrage et coulage du béton sur un chantier Groupe Solid à Koh Samui" loading="lazy" src="images/chantier-10.jpg"/></div><div class="chantier-photo"><img alt="Ferraillage, coffrage et coulage du béton sur un chantier Groupe Solid à Koh Samui" loading="lazy" src="images/chantier-11.jpg"/></div>
+        <div class="chantier-photo"><img alt="Ferraillage, coffrage et coulage du béton sur un chantier Groupe Solid à Koh Samui" loading="lazy" src="images/chantier-12.jpg"/></div><div class="chantier-photo"><img alt="Ferraillage, coffrage et coulage du béton sur un chantier Groupe Solid à Koh Samui" loading="lazy" src="images/chantier-13.jpg"/></div>
+        <div class="chantier-photo"><img alt="Ferraillage, coffrage et coulage du béton sur un chantier Groupe Solid à Koh Samui" loading="lazy" src="images/chantier-14.jpg"/></div><div class="chantier-photo"><img alt="Ferraillage, coffrage et coulage du béton sur un chantier Groupe Solid à Koh Samui" loading="lazy" src="images/chantier-15.jpg"/></div>
+        <div class="chantier-photo"><img alt="Ferraillage, coffrage et coulage du béton sur un chantier Groupe Solid à Koh Samui" loading="lazy" src="images/chantier-16.jpg"/></div>
+      </div>
+    </div>
+    <div class="chantier-phase">
+      <div class="chantier-phase-header"><span class="chantier-phase-num">04</span><div class="chantier-phase-text"><h4 data-i18n="gallery.phase4_title">L'élévation</h4><p data-i18n="gallery.phase4_sub">Murs porteurs, niveaux, vue d'ensemble</p></div></div>
+      <div class="chantier-phase-grid">
+        <div class="chantier-photo"><img alt="Élévation des murs porteurs d'une résidence en construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-17.jpg"/></div><div class="chantier-photo"><img alt="Élévation des murs porteurs d'une résidence en construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-18.jpg"/></div>
+        <div class="chantier-photo"><img alt="Élévation des murs porteurs d'une résidence en construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-19.jpg"/></div><div class="chantier-photo"><img alt="Élévation des murs porteurs d'une résidence en construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-20.jpg"/></div>
+        <div class="chantier-photo"><img alt="Élévation des murs porteurs d'une résidence en construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-21.jpg"/></div><div class="chantier-photo"><img alt="Élévation des murs porteurs d'une résidence en construction à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-22.jpg"/></div>
+      </div>
+    </div>
+    <div class="chantier-phase">
+      <div class="chantier-phase-header"><span class="chantier-phase-num">05</span><div class="chantier-phase-text"><h4 data-i18n="gallery.phase5_title">Murs &amp; toiture</h4><p data-i18n="gallery.phase5_sub">Maçonnerie, charpente métallique, couverture</p></div></div>
+      <div class="chantier-phase-grid">
+        <div class="chantier-photo"><img alt="Maçonnerie, charpente métallique et toiture d'une villa à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-23.jpg"/></div><div class="chantier-photo"><img alt="Maçonnerie, charpente métallique et toiture d'une villa à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-24.jpg"/></div>
+        <div class="chantier-photo"><img alt="Maçonnerie, charpente métallique et toiture d'une villa à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-25.jpg"/></div><div class="chantier-photo"><img alt="Maçonnerie, charpente métallique et toiture d'une villa à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-26.jpg"/></div>
+        <div class="chantier-photo"><img alt="Maçonnerie, charpente métallique et toiture d'une villa à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-27.jpg"/></div><div class="chantier-photo"><img alt="Maçonnerie, charpente métallique et toiture d'une villa à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-28.jpg"/></div>
+      </div>
+    </div>
+    <div class="chantier-phase">
+      <div class="chantier-phase-header"><span class="chantier-phase-num">06</span><div class="chantier-phase-text"><h4 data-i18n="gallery.phase6_title">Finitions &amp; livraison</h4><p data-i18n="gallery.phase6_sub">Enduits, façades, aménagement et remise des clés</p></div></div>
+      <div class="chantier-phase-grid">
+        <div class="chantier-photo"><img alt="Finitions, façades et livraison d'une villa neuve à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-29.jpg"/></div><div class="chantier-photo"><img alt="Finitions, façades et livraison d'une villa neuve à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-30.jpg"/></div>
+        <div class="chantier-photo"><img alt="Finitions, façades et livraison d'une villa neuve à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-31.jpg"/></div><div class="chantier-photo"><img alt="Finitions, façades et livraison d'une villa neuve à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-32.jpg"/></div>
+        <div class="chantier-photo"><img alt="Finitions, façades et livraison d'une villa neuve à Koh Samui — Groupe Solid" loading="lazy" src="images/chantier-33.jpg"/></div>
+      </div>
+    </div>
+    <div class="chantier-signature">
+      <img alt="Équipe Solid Construction sur un chantier à Koh Samui — trente ans d'expérience du bâtiment" loading="lazy" src="images/chantier-34.jpg"/>
+      <div class="chantier-signature-caption">
+        <span class="chantier-phase-num">07</span>
+        <div><h4 data-i18n="gallery.sig_title">Solid Construction</h4><p data-i18n="gallery.sig_sub">Sur le terrain, chaque jour, depuis trente ans.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Rénovation ============ -->
+<section class="activity-detail activity-detail--alt" id="renovation">
+  <div class="container">
+    <div class="activity-grid">
+      <div class="activity-intro">
+        <span class="eyebrow">02 · Nos activités</span>
+        <h2>Rénover,<br/><span class="accent">sans compromis</span>.</h2>
+        <p class="activity-lead" data-i18n-html="s2.p1">Chaque projet de rénovation commence par une étude approfondie menée avec notre équipe de spécialistes.</p>
+        <p class="activity-text" data-i18n-html="s2.p2"><strong>Tout est pris en charge, tout est calculé.</strong></p>
+        <p class="activity-text">Notre <strong>cabinet d'architecture intégré</strong> réalise des rendus 3D de votre futur projet.</p>
+        <p class="activity-signature" data-i18n="s2.closing">Rénover avec Solid, c'est confier votre projet à une équipe complète, sous un seul toit.</p>
+        <div class="activity-cta">
+          <a class="btn btn-primary" href="https://wa.me/66953614489?text=Bonjour%2C%20je%20vous%20contacte%20au%20sujet%20d%27un%20projet%20de%20r%C3%A9novation." rel="noopener" target="_blank">Parlons de votre projet <span class="arrow">→</span></a>
+        </div>
+      </div>
+      <div class="activity-stats">
+        <div class="stat-block"><div class="stat-num">3D</div><div class="stat-label">Rendus avant chantier<br/>par notre cabinet interne</div></div>
+        <div class="stat-block"><div class="stat-num">A<span class="small">→</span>Z</div><div class="stat-label">Architecture, ingénierie,<br/>travaux : un seul interlocuteur</div></div>
+        <div class="stat-block"><div class="stat-num">100<span class="small">%</span></div><div class="stat-label">Pris en charge,<br/>vous ne gérez rien</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Promotion ============ -->
+<section class="activity-detail" id="promotion">
+  <div class="container">
+    <div class="activity-grid">
+      <div class="activity-intro">
+        <span class="eyebrow">03 · Nos activités</span>
+        <h2>Du terrain<br/><span class="accent">à la clé.</span></h2>
+        <p class="activity-lead" data-i18n-html="s3.p1">Le Groupe Solid conçoit et développe ses propres programmes immobiliers, de l'achat du foncier à la remise des clés.</p>
+        <p class="activity-text" data-i18n-html="s3.p2">Chaque projet intègre <strong>l'acquisition du terrain, la construction et la livraison clé en main</strong>.</p>
+        <p class="activity-text">Nos biens sont proposés en <strong>pleine propriété ou en bail emphytéotique 30 ans</strong>. <strong>Meublés ou non meublés</strong>, à votre choix.</p>
+        <p class="activity-signature" data-i18n="s3.closing">Acheter un projet Solid, c'est acquérir un bien dont nous maîtrisons chaque étape.</p>
+        <div class="activity-cta">
+          <a class="btn btn-primary" href="https://wa.me/66953614489?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%28e%29%20par%20vos%20programmes%20immobiliers." rel="noopener" target="_blank">Découvrir nos programmes <span class="arrow">→</span></a>
+        </div>
+      </div>
+      <div class="activity-stats">
+        <div class="stat-block"><div class="stat-num">3 EN 1</div><div class="stat-label">Terrain + construction<br/>+ livraison clé en main</div></div>
+        <div class="stat-block"><div class="stat-num">0</div><div class="stat-label">Intermédiaire :<br/>achat direct au promoteur</div></div>
+        <div class="stat-block"><div class="stat-num">30<span class="small"> /</span> ∞</div><div class="stat-label">Bail emphytéotique<br/>ou pleine propriété, au choix</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Fourniture ============ -->
+<section class="activity-detail activity-detail--alt" id="fourniture">
+  <div class="container">
+    <div class="activity-grid">
+      <div class="activity-intro">
+        <span class="eyebrow">04 · Nos activités</span>
+        <h2>Sourcer global,<br/><span class="accent">au juste prix.</span></h2>
+        <p class="activity-lead" data-i18n-html="s4.p1">Le Groupe Solid s'appuie sur un réseau de fournisseurs sélectionnés à travers le monde.</p>
+        <p class="activity-text" data-i18n-html="s4.p2">Notre <strong>bureau implanté en Chine</strong> nous donne un accès direct aux fabricants.</p>
+        <p class="activity-text">Un <strong>rapport qualité-prix exceptionnel</strong> sur l'ensemble de nos prestations d'aménagement.</p>
+        <p class="activity-signature" data-i18n="s4.closing">S'équiper avec Solid, c'est acheter à la source.</p>
+        <div class="activity-cta">
+          <a class="btn btn-primary" href="https://wa.me/66953614489?text=Bonjour%2C%20je%20vous%20contacte%20au%20sujet%20de%20vos%20prestations%20de%20fourniture%20et%20d%27ameublement." rel="noopener" target="_blank">Demander un devis <span class="arrow">→</span></a>
+        </div>
+      </div>
+      <div class="activity-stats">
+        <div class="stat-block"><div class="stat-num">CHINE</div><div class="stat-label">Bureau de sourcing<br/>intégré, accès aux fabricants</div></div>
+        <div class="stat-block"><div class="stat-num">GLOBAL</div><div class="stat-label">Réseau de fournisseurs<br/>sélectionnés à l'international</div></div>
+        <div class="stat-block"><div class="stat-num">DIRECT</div><div class="stat-label">De l'usine au chantier,<br/>sans intermédiaire</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Biens — Intro ============ -->
+<section class="activity-detail" id="biens">
+  <div class="container">
+    <div class="activity-grid">
+      <div class="activity-intro">
+        <span class="eyebrow">05 · À la vente</span>
+        <h2>Pas une agence.<br/><span class="accent">Un réseau.</span></h2>
+        <p class="activity-lead" data-i18n-html="s5.p1">Le Groupe Solid n'est pas une agence immobilière. C'est un constructeur et promoteur installé à Koh Samui depuis quinze ans.</p>
+        <p class="activity-text" data-i18n-html="s5.p2">Des <strong>terrains et des biens qui ne passent jamais par les canaux traditionnels</strong>.</p>
+        <p class="activity-text">Des biens à des conditions que nos concurrents ne peuvent tout simplement pas obtenir.</p>
+        <p class="activity-signature" data-i18n="s5.closing">Acheter avec Solid, c'est accéder à des biens que les autres ne verront jamais.</p>
+        <div class="activity-cta">
+          <a class="btn btn-primary" href="#biens-list">Voir les biens disponibles <span class="arrow">→</span></a>
+        </div>
+      </div>
+      <div class="activity-stats">
+        <div class="stat-block"><div class="stat-num">EXCLU.</div><div class="stat-label">Biens proposés<br/>hors marché public</div></div>
+        <div class="stat-block"><div class="stat-num">RÉSEAU</div><div class="stat-label">Propriétaires terriens<br/>en relation directe</div></div>
+        <div class="stat-block"><div class="stat-num">0<span class="small"> %</span></div><div class="stat-label">Frais d'agence :<br/>nous ne sommes pas une agence</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Biens Listing ============ -->
+<section id="biens-list">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow" data-i18n="s5b.eyebrow">Sélection actuelle</span>
+      <h2 data-i18n="s5b.title">Biens disponibles</h2>
+      <p data-i18n="s5b.text">Chaque bien présenté ici est <strong>rigoureusement vérifié</strong> par nos équipes.</p>
+    </div>
+    <div class="biens-grid">
+      <article class="bien-card bien-card--pro">
+        <a class="bien-fiche" href="images/Fiche%20terrain/fiche_solid_maenam_soi5%205.png" target="_blank" rel="noopener"><img src="images/Fiche%20terrain/fiche_solid_maenam_soi5%205.png" alt="Terrain à louer à Mae Nam, Koh Samui — Groupe Solid" loading="lazy"/><span class="bien-tag" data-i18n="biens.tag_rent">À louer</span></a>
+        <div class="bien-content">
+          <div class="bien-type" data-i18n="biens.type_rent">Terrain à louer</div>
+          <h3 class="bien-title">Mae Nam · Soi 5</h3>
+          <div class="bien-location">📍 Ko Samui · Surat Thani</div>
+          <div class="bien-specs"><div class="spec"><span class="spec-label" data-i18n="biens.lbl_area">Superficie</span><span class="spec-val">9 276 m²</span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_rent">Loyer</span><span class="spec-val">98 600 ฿ <small data-i18n="biens.per_month">par mois</small></span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_advance">Avance</span><span class="spec-val">2 <span data-i18n="biens.years">ans</span></span></div></div>
+          <ul class="bien-feats"><li data-i18n="biens.b1_f1">Terrain plat, cocoteraie</li><li data-i18n="biens.b1_f2">Route d'accès et électricité sur place</li><li data-i18n="biens.b1_f3">Idéal villa, resort ou lotissement</li></ul>
+          <div class="bien-foot"><div class="bien-price">17 000 ฿ <span data-i18n="biens.per_rai_month">/ rai / mois</span></div></div>
+          <div class="bien-actions"><a class="bien-link" href="images/Fiche%20terrain/fiche_solid_maenam_soi5%205.png" target="_blank" rel="noopener" data-i18n="biens.cta">Voir la fiche</a><a class="bien-link bien-link--alt" href="#contact" data-i18n="biens.contact">Nous contacter</a></div>
+        </div>
+      </article>
+      <article class="bien-card bien-card--pro">
+        <a class="bien-fiche" href="images/Fiche%20terrain/fiche_solid_bophut_vente%207.png" target="_blank" rel="noopener"><img src="images/Fiche%20terrain/fiche_solid_bophut_vente%207.png" alt="Terrain à vendre à Bo Phut, Koh Samui — Groupe Solid" loading="lazy"/><span class="bien-tag" data-i18n="biens.tag_sale">À vendre</span></a>
+        <div class="bien-content">
+          <div class="bien-type" data-i18n="biens.type_sale">Terrain à vendre</div>
+          <h3 class="bien-title">Bo Phut</h3>
+          <div class="bien-location">📍 Ko Samui · Surat Thani</div>
+          <div class="bien-specs"><div class="spec"><span class="spec-label" data-i18n="biens.lbl_area">Superficie</span><span class="spec-val">2 996 m²</span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_price">Prix</span><span class="spec-val">14,98 M฿</span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_pricerai">Prix / rai</span><span class="spec-val">8 M฿</span></div></div>
+          <ul class="bien-feats"><li data-i18n="biens.b2_f1">À 4 min de la plage (Fisherman's Village)</li><li data-i18n="biens.b2_f2">Route d'accès et électricité sur place</li><li data-i18n="biens.b2_f3">Idéal villa ou investissement</li></ul>
+          <div class="bien-foot"><div class="bien-price">8 M฿ <span data-i18n="biens.per_rai">/ rai</span></div></div>
+          <div class="bien-actions"><a class="bien-link" href="images/Fiche%20terrain/fiche_solid_bophut_vente%207.png" target="_blank" rel="noopener" data-i18n="biens.cta">Voir la fiche</a><a class="bien-link bien-link--alt" href="#contact" data-i18n="biens.contact">Nous contacter</a></div>
+        </div>
+      </article>
+      <article class="bien-card bien-card--pro">
+        <a class="bien-fiche" href="images/Fiche%20terrain/fiche_solid_bophut%204.png" target="_blank" rel="noopener"><img src="images/Fiche%20terrain/fiche_solid_bophut%204.png" alt="Terrain à louer à Bo Phut, Koh Samui — Groupe Solid" loading="lazy"/><span class="bien-tag" data-i18n="biens.tag_rent">À louer</span></a>
+        <div class="bien-content">
+          <div class="bien-type" data-i18n="biens.type_rent">Terrain à louer</div>
+          <h3 class="bien-title">Bo Phut</h3>
+          <div class="bien-location">📍 Ko Samui · Surat Thani</div>
+          <div class="bien-specs"><div class="spec"><span class="spec-label" data-i18n="biens.lbl_area">Superficie</span><span class="spec-val">30 243 m²</span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_rent">Loyer</span><span class="spec-val">567 060 ฿ <small data-i18n="biens.per_month">par mois</small></span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_advance">Avance</span><span class="spec-val">3 <span data-i18n="biens.years">ans</span></span></div></div>
+          <ul class="bien-feats"><li data-i18n="biens.b3_f1">Grand terrain plat d'environ 18,9 rai</li><li data-i18n="biens.b3_f2">Accès par route en béton, électricité</li><li data-i18n="biens.b3_f3">Idéal resort, hôtel ou lotissement</li></ul>
+          <div class="bien-foot"><div class="bien-price">30 000 ฿ <span data-i18n="biens.per_rai_month">/ rai / mois</span></div></div>
+          <div class="bien-actions"><a class="bien-link" href="images/Fiche%20terrain/fiche_solid_bophut%204.png" target="_blank" rel="noopener" data-i18n="biens.cta">Voir la fiche</a><a class="bien-link bien-link--alt" href="#contact" data-i18n="biens.contact">Nous contacter</a></div>
+        </div>
+      </article>
+      <article class="bien-card bien-card--pro">
+        <a class="bien-fiche" href="images/Fiche%20terrain/fiche_solid_bophut_lease%206.png" target="_blank" rel="noopener"><img src="images/Fiche%20terrain/fiche_solid_bophut_lease%206.png" alt="Terrain à louer à Bo Phut, Koh Samui — Groupe Solid" loading="lazy"/><span class="bien-tag" data-i18n="biens.tag_rent">À louer</span></a>
+        <div class="bien-content">
+          <div class="bien-type" data-i18n="biens.type_rent">Terrain à louer</div>
+          <h3 class="bien-title">Bo Phut</h3>
+          <div class="bien-location">📍 Ko Samui · Surat Thani</div>
+          <div class="bien-specs"><div class="spec"><span class="spec-label" data-i18n="biens.lbl_area">Superficie</span><span class="spec-val">5 188 m²</span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_rent">Loyer</span><span class="spec-val">81 063 ฿ <small data-i18n="biens.per_month">par mois</small></span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_lease">Bail</span><span class="spec-val">30 <span data-i18n="biens.years">ans</span></span></div></div>
+          <ul class="bien-feats"><li data-i18n="biens.b4_f1">Bail longue durée — 30 ans</li><li data-i18n="biens.b4_f2">Route d'accès et électricité sur place</li><li data-i18n="biens.b4_f3">Idéal villa, resort ou locatif</li></ul>
+          <div class="bien-foot"><div class="bien-price">25 000 ฿ <span data-i18n="biens.per_rai_month">/ rai / mois</span></div></div>
+          <div class="bien-actions"><a class="bien-link" href="images/Fiche%20terrain/fiche_solid_bophut_lease%206.png" target="_blank" rel="noopener" data-i18n="biens.cta">Voir la fiche</a><a class="bien-link bien-link--alt" href="#contact" data-i18n="biens.contact">Nous contacter</a></div>
+        </div>
+      </article>
+      <article class="bien-card bien-card--pro">
+        <a class="bien-fiche" href="images/Fiche%20terrain/fiche_solid_location_bophut%202.png" target="_blank" rel="noopener"><img src="images/Fiche%20terrain/fiche_solid_location_bophut%202.png" alt="Terrain à louer à Bo Phut, Koh Samui — Groupe Solid" loading="lazy"/><span class="bien-tag" data-i18n="biens.tag_rent">À louer</span></a>
+        <div class="bien-content">
+          <div class="bien-type" data-i18n="biens.type_rent">Terrain à louer</div>
+          <h3 class="bien-title">Bo Phut</h3>
+          <div class="bien-location">📍 Ko Samui · Surat Thani</div>
+          <div class="bien-specs"><div class="spec"><span class="spec-label" data-i18n="biens.lbl_area">Superficie</span><span class="spec-val">528 m²</span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_rent">Loyer</span><span class="spec-val">200 000 ฿ <small data-i18n="biens.per_month">par mois</small></span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_lease">Bail</span><span class="spec-val">30 <span data-i18n="biens.years">ans</span></span></div></div>
+          <ul class="bien-feats"><li data-i18n="biens.b5_f1">Façade de 50 m sur la route principale</li><li data-i18n="biens.b5_f2">Face au Holiday Inn / Fisherman's Wharf</li><li data-i18n="biens.b5_f3">Idéal commerce, restaurant ou boutique</li></ul>
+          <div class="bien-foot"><div class="bien-price">200 000 ฿ <span data-i18n="biens.per_month">par mois</span></div></div>
+          <div class="bien-actions"><a class="bien-link" href="images/Fiche%20terrain/fiche_solid_location_bophut%202.png" target="_blank" rel="noopener" data-i18n="biens.cta">Voir la fiche</a><a class="bien-link bien-link--alt" href="#contact" data-i18n="biens.contact">Nous contacter</a></div>
+        </div>
+      </article>
+      <article class="bien-card bien-card--pro">
+        <a class="bien-fiche" href="images/Fiche%20terrain/fiche_solid_location_maenam%201.png" target="_blank" rel="noopener"><img src="images/Fiche%20terrain/fiche_solid_location_maenam%201.png" alt="Terrain à louer à Mae Nam, Koh Samui — Groupe Solid" loading="lazy"/><span class="bien-tag" data-i18n="biens.tag_rent">À louer</span></a>
+        <div class="bien-content">
+          <div class="bien-type" data-i18n="biens.type_rent">Terrain à louer</div>
+          <h3 class="bien-title">Mae Nam · Soi 5</h3>
+          <div class="bien-location">📍 Ko Samui · Surat Thani</div>
+          <div class="bien-specs"><div class="spec"><span class="spec-label" data-i18n="biens.lbl_area">Superficie</span><span class="spec-val">826,8 m²</span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_rent">Loyer</span><span class="spec-val">15 000 ฿ <small data-i18n="biens.per_month">par mois</small></span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_advance">Avance</span><span class="spec-val">3 <span data-i18n="biens.years">ans</span></span></div></div>
+          <ul class="bien-feats"><li data-i18n="biens.b6_f1">Très proche de la route principale</li><li data-i18n="biens.b6_f2">Terrain plat, forme régulière</li><li data-i18n="biens.b6_f3">Idéal commerce, villa ou locatif</li></ul>
+          <div class="bien-foot"><div class="bien-price">15 000 ฿ <span data-i18n="biens.per_month">par mois</span></div></div>
+          <div class="bien-actions"><a class="bien-link" href="images/Fiche%20terrain/fiche_solid_location_maenam%201.png" target="_blank" rel="noopener" data-i18n="biens.cta">Voir la fiche</a><a class="bien-link bien-link--alt" href="#contact" data-i18n="biens.contact">Nous contacter</a></div>
+        </div>
+      </article>
+      <article class="bien-card bien-card--pro">
+        <a class="bien-fiche" href="images/Fiche%20terrain/fiche_solid_location3.png" target="_blank" rel="noopener"><img src="images/Fiche%20terrain/fiche_solid_location3.png" alt="Terrain à louer à Bo Phut, Koh Samui — Groupe Solid" loading="lazy"/><span class="bien-tag" data-i18n="biens.tag_rent">À louer</span></a>
+        <div class="bien-content">
+          <div class="bien-type" data-i18n="biens.type_rent">Terrain à louer</div>
+          <h3 class="bien-title">Bo Phut</h3>
+          <div class="bien-location">📍 Ko Samui · Surat Thani</div>
+          <div class="bien-specs"><div class="spec"><span class="spec-label" data-i18n="biens.lbl_area">Superficie</span><span class="spec-val">≈ 14 260 m²</span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_rent">Loyer</span><span class="spec-val">≈ 312 000 ฿ <small data-i18n="biens.per_month">par mois</small></span></div><div class="spec"><span class="spec-label" data-i18n="biens.lbl_advance">Avance</span><span class="spec-val">10 <span data-i18n="biens.years">ans</span></span></div></div>
+          <ul class="bien-feats"><li data-i18n="biens.b7_f1">Très grand terrain — plus de 8 rai</li><li data-i18n="biens.b7_f2">Longue façade d'environ 305 m</li><li data-i18n="biens.b7_f3">Idéal lotissement, ferme ou villas locatives</li></ul>
+          <div class="bien-foot"><div class="bien-price">35 000 ฿ <span data-i18n="biens.per_rai_month">/ rai / mois</span></div></div>
+          <div class="bien-actions"><a class="bien-link" href="images/Fiche%20terrain/fiche_solid_location3.png" target="_blank" rel="noopener" data-i18n="biens.cta">Voir la fiche</a><a class="bien-link bien-link--alt" href="#contact" data-i18n="biens.contact">Nous contacter</a></div>
+        </div>
+      </article>
+    </div>
+    <div class="section-footer"><a class="btn btn-outline" href="#contact"><span data-i18n="biens.footer_cta">Un bien vous intéresse ?</span> <span class="arrow">→</span></a></div>
+  </div>
+</section>
+
+<!-- ============ Réalisations ============ -->
+<section class="realisations" id="realisations">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow" data-i18n="real.eyebrow">Portfolio</span>
+      <h2 data-i18n="real.title">Nos réalisations</h2>
+      <p data-i18n="real.text">Voici un aperçu de quelques-uns de nos chantiers livrés.</p>
+    </div>
+    <div class="realisations-grid">
+      <div class="realisation"><div class="realisation-label"><div class="type">Villa privée</div><div class="name">Projet phare</div></div></div>
+      <div class="realisation"><div class="realisation-label"><div class="type">Lotissement</div><div class="name">Projet 2</div></div></div>
+      <div class="realisation"><div class="realisation-label"><div class="type">Rénovation</div><div class="name">Projet 3</div></div></div>
+      <div class="realisation"><div class="realisation-label"><div class="type">Condominium</div><div class="name">Projet 4</div></div></div>
+      <div class="realisation"><div class="realisation-label"><div class="type">Immeuble</div><div class="name">Projet 5</div></div></div>
+    </div>
+    <div class="section-footer"><a class="btn btn-outline" href="https://wa.me/66953614489?text=Bonjour%2C%20j%27aimerais%20en%20savoir%20plus%20sur%20vos%20r%C3%A9alisations." target="_blank" rel="noopener"><span data-i18n="real.footer_cta">Voir toutes les réalisations</span> <span class="arrow">→</span></a></div>
+  </div>
+</section>
+
+<!-- ============ Pourquoi Solid ============ -->
+<section id="groupe">
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow" data-i18n="why.eyebrow">Le Groupe Solid</span>
+      <h2 data-i18n-html="why.title_html">Solid,<br/>comme notre nom.</h2>
+    </div>
+    <div class="stats-grid">
+      <div class="stat"><div class="stat-number">30<span style="font-size:42px;">+</span></div><div class="stat-label">Années<br/>d'expérience</div></div>
+      <div class="stat"><div class="stat-number">15</div><div class="stat-label">Années<br/>à Koh Samui</div></div>
+      <div class="stat"><div class="stat-number">20</div><div class="stat-label">Ans de garantie<br/>structure</div></div>
+      <div class="stat"><div class="stat-number">5</div><div class="stat-label">Pôles d'activités<br/>intégrés</div></div>
+    </div>
+    <div class="pourquoi-text">
+      <h3 data-i18n="why.h3">Notre signature.</h3>
+      <div>
+        <p data-i18n-html="why.p1">Pourquoi Solid ? Parce qu'en trois décennies, le Groupe a fait ses preuves.</p>
+        <p data-i18n-html="why.p2" style="margin-top:24px;">Notre ligne de conduite n'a jamais varié : <strong>travail bien fait, planning respecté, client écouté</strong>.</p>
+        <p data-i18n-html="why.p3" style="margin-top:24px;">Solid, c'est aussi une équipe fidèle. <strong>Nous fonctionnons comme une grande entreprise familiale.</strong></p>
+        <p data-i18n-html="why.p4" style="margin-top:24px;">Solid, comme notre nom : <strong>un groupe authentique, durable, qui traverse le temps</strong>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA Final ============ -->
+<section class="cta-final" id="contact">
+  <div class="container">
+    <span class="eyebrow" data-i18n="cta.eyebrow" style="justify-content:center;">Contact</span>
+    <h2 data-i18n="cta.title">Vous avez un projet<br/><span class="accent">en tête</span> ?</h2>
+    <p data-i18n="cta.text">Parlons-en. Notre équipe vous accompagne de la première idée à la remise des clés.</p>
+    <div style="display:flex; gap:18px; justify-content:center; flex-wrap:wrap;">
+      <a class="btn btn-primary" href="tel:0953614489">📞 095-361-4489</a>
+      <a class="btn btn-outline" href="https://wa.me/66953614489?text=Bonjour%2C%20je%20vous%20contacte%20depuis%20votre%20site%20internet%20concernant%20un%20projet." rel="noopener" target="_blank">💬 WhatsApp <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Footer ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <a class="logo" href="#">
+          <div class="logo-frame">
+            <svg class="logo-diamond" viewBox="0 0 360 320" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+                <path d="M 120 60 L 240 60 L 290 95 L 330 130 L 295 155 L 180 290 L 65 155 L 30 130 L 70 95 Z"/>
+                <line x1="30" x2="330" y1="130" y2="130"/>
+                <line x1="120" x2="70" y1="60" y2="95"/><line x1="240" x2="290" y1="60" y2="95"/>
+                <line x1="120" x2="100" y1="60" y2="130"/><line x1="240" x2="260" y1="60" y2="130"/>
+                <line x1="120" x2="180" y1="60" y2="130"/><line x1="240" x2="180" y1="60" y2="130"/>
+                <line x1="70" x2="100" y1="95" y2="130"/><line x1="290" x2="260" y1="95" y2="130"/>
+                <line x1="65" x2="100" y1="155" y2="130"/><line x1="295" x2="260" y1="155" y2="130"/>
+                <line x1="100" x2="180" y1="130" y2="290"/><line x1="260" x2="180" y1="130" y2="290"/>
+                <line x1="180" x2="180" y1="130" y2="290"/>
+                <line x1="30" x2="100" y1="130" y2="220"/><line x1="330" x2="260" y1="130" y2="220"/>
+                <line x1="100" x2="180" y1="220" y2="290"/><line x1="260" x2="180" y1="220" y2="290"/>
+                <line x1="100" x2="180" y1="220" y2="130"/><line x1="260" x2="180" y1="220" y2="130"/>
+              </g>
+            </svg>
+          </div>
+          <span class="logo-wordmark">SOLID <span class="accent">GROUPE</span></span>
+        </a>
+        <p data-i18n="footer.tagline">Groupe immobilier basé à Koh Samui. Construction, rénovation et promotion immobilière.</p>
+        <div class="partner-logos">
+          <span class="partner-chip">Foris Hortus</span>
+          <span class="partner-chip">Uogel</span>
+          <span class="partner-chip">Hyxion</span>
+          <span class="partner-chip">Lano</span>
+          <span class="partner-chip">KJ</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Activités</h4>
+        <ul>
+          <li><a href="#construction">Construction</a></li>
+          <li><a href="#renovation">Rénovation</a></li>
+          <li><a href="#promotion">Promotion immobilière</a></li>
+          <li><a href="#fourniture">Fourniture &amp; ameublement</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#biens">Biens à vendre</a></li>
+          <li><a href="#realisations">Réalisations</a></li>
+          <li><a href="#groupe">Le Groupe</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact_h">Contact</h4>
+        <ul>
+          <li>📞 095-361-4489</li>
+          <li>✉ solidconstructionsamui@gmail.com</li>
+          <li>🕐 Lun-Dim · 8h-20h</li>
+          <li>📍 Koh Samui, Thaïlande</li>
+          <!-- TODO: Ajouter le numéro d'enregistrement de la société -->
+          <!-- <li>N° Enregistrement : XXXXXXXXXXXXX</li> -->
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Groupe Solid. Tous droits réservés.</div>
+      <div>Mentions légales · Politique de confidentialité</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const I18N = {"fr":{"hero.pretitle":"Des projets bâtis sur des","hero.title_html":"Fondations <span class=\"accent\">solides</span>","gallery.title_html":"Du terrain<br>à la <span class=\"accent\">livraison</span>.","why.title_html":"Solid,<br>comme notre nom.","topbar.hours":"<span class=\"icon\">🕐</span> Lun–Dim 8h–20h","topbar.phone":"<span class=\"icon\">📞</span> 095-361-4489","topbar.email":"<span class=\"icon\">✉</span> solidconstructionsamui@gmail.com","nav.contact":"Contact","cat.construction":"Construction","cat.renovation":"Rénovation","cat.promotion":"Promotion","cat.fourniture":"Fourniture ameublement","cat.biens":"Biens à vendre","cat.realisations":"Réalisations","hero.subtitle":"Construction, rénovation, promotion immobilière — votre partenaire de confiance, du terrain à la clé.","hero.cta1":"Découvrir nos biens","hero.cta2":"Nos réalisations","s1.p1":"Chaque chantier que nous livrons est supervisé par notre propre équipe de professionnels qualifiés — chefs de chantier, ingénieurs, artisans — formés et fidèles au Groupe depuis des années.","s1.p2":"Nous engageons une <strong>garantie structure de 20 ans</strong>, contractuelle et ferme, sur chaque bâtiment livré.","s1.closing":"Construire avec Solid, c'est s'offrir la tranquillité d'un travail bien fait, par ceux qui le font depuis toujours.","s2.p1":"Chaque rénovation commence par une <strong>étude approfondie</strong> menée par notre équipe de spécialistes.","s2.p2":"Notre <strong>cabinet d'architecture intégré</strong> conçoit avec vous les plans, les rendus 3D, les choix de matériaux.","s2.closing":"Rénover avec Solid, c'est confier votre projet à une équipe complète, sous un seul toit.","s3.p1":"En tant que <strong>promoteur</strong>, nous développons nos propres programmes immobiliers à Koh Samui.","s3.p2":"<strong>Acheter à la source</strong> signifie acheter sans intermédiaire, sans marge d'agence.","s3.closing":"Acheter un projet Solid, c'est acquérir un bien dont nous maîtrisons chaque étape.","s4.p1":"Notre <strong>bureau de sourcing en Chine</strong> et notre <strong>réseau international de fournisseurs</strong> nous donnent un accès direct aux fabricants.","s4.p2":"Nous pouvons <strong>équiper intégralement</strong> votre bien aux conditions réservées aux gros acheteurs.","s4.closing":"S'équiper avec Solid, c'est acheter à la source.","s5.p1":"En quinze ans à Koh Samui, nous avons construit pour des centaines de propriétaires terriens locaux.","s5.p2":"Pas de frais d'agence à notre niveau. Des <strong>prix plus compétitifs</strong> parce que la chaîne est plus courte.","s5.closing":"Acheter avec Solid, c'est accéder à des biens que les autres ne verront jamais.","s5b.eyebrow":"Sélection actuelle","s5b.title":"Biens disponibles","s5b.text":"Chaque bien présenté ici est rigoureusement vérifié par nos équipes.","biens.type_sale":"Terrain à vendre","biens.type_rent":"Terrain à louer","biens.per_month":"par mois","biens.per_rai_month":"/ rai / mois","biens.per_rai":"/ rai","biens.cta":"Voir la fiche","biens.footer_cta":"Un bien vous intéresse ?","biens.tag_rent":"À louer","biens.tag_sale":"À vendre","biens.lbl_area":"Superficie","biens.lbl_rent":"Loyer","biens.lbl_price":"Prix","biens.lbl_pricerai":"Prix / rai","biens.lbl_advance":"Avance","biens.lbl_lease":"Bail","biens.years":"ans","biens.contact":"Nous contacter","biens.b1_f1":"Terrain plat, cocoteraie","biens.b1_f2":"Route d'accès et électricité sur place","biens.b1_f3":"Idéal villa, resort ou lotissement","biens.b2_f1":"À 4 min de la plage (Fisherman's Village)","biens.b2_f2":"Route d'accès et électricité sur place","biens.b2_f3":"Idéal villa ou investissement","biens.b3_f1":"Grand terrain plat d'environ 18,9 rai","biens.b3_f2":"Accès par route en béton, électricité","biens.b3_f3":"Idéal resort, hôtel ou lotissement","biens.b4_f1":"Bail longue durée — 30 ans","biens.b4_f2":"Route d'accès et électricité sur place","biens.b4_f3":"Idéal villa, resort ou locatif","biens.b5_f1":"Façade de 50 m sur la route principale","biens.b5_f2":"Face au Holiday Inn / Fisherman's Wharf","biens.b5_f3":"Idéal commerce, restaurant ou boutique","biens.b6_f1":"Très proche de la route principale","biens.b6_f2":"Terrain plat, forme régulière","biens.b6_f3":"Idéal commerce, villa ou locatif","biens.b7_f1":"Très grand terrain — plus de 8 rai","biens.b7_f2":"Longue façade d'environ 305 m","biens.b7_f3":"Idéal lotissement, ferme ou villas locatives","real.eyebrow":"Portfolio","real.footer_cta":"Voir toutes les réalisations","real.title":"Nos réalisations","real.text":"Voici un aperçu de quelques-uns de nos chantiers livrés.","gallery.eyebrow":"Chantier en images","gallery.title_pre":"Du terrain","gallery.title_accent":"à la livraison","gallery.intro":"Aperçu d'un programme Solid, du premier coup de pelle aux clés remises.","gallery.phase1_title":"Le terrain","gallery.phase1_sub":"Étude, terrassement, préparation","gallery.phase2_title":"Les fondations","gallery.phase2_sub":"Soubassement, semelles, poteaux porteurs","gallery.phase3_title":"Coffrage & béton","gallery.phase3_sub":"Ferraillage, coffrage, coulage des structures","gallery.phase4_title":"L'élévation","gallery.phase4_sub":"Murs porteurs, niveaux, vue d'ensemble du chantier","gallery.phase5_title":"Murs & toiture","gallery.phase5_sub":"Maçonnerie, charpente métallique, couverture","gallery.phase6_title":"Finitions & livraison","gallery.phase6_sub":"Enduits, façades, aménagement et remise des clés","gallery.sig_title":"Solid Construction","gallery.sig_sub":"Sur le terrain, chaque jour, depuis trente ans.","why.eyebrow":"Le Groupe Solid","why.h3":"Notre signature.","why.p1":"Pourquoi Solid ? Parce qu'en trois décennies, le Groupe a fait ses preuves.","why.p2":"Notre ligne de conduite n'a jamais varié : <strong>travail bien fait, planning respecté, client écouté</strong>.","why.p3":"Solid, c'est aussi une équipe fidèle. <strong>Nous fonctionnons comme une grande entreprise familiale.</strong>","why.p4":"Solid, comme notre nom : <strong>un groupe authentique, durable, qui traverse le temps</strong>.","cta.eyebrow":"Démarrer un projet","cta.title":"On en parle ?","cta.text":"Construction neuve, rénovation, achat d'un bien, projet d'investissement : un appel suffit.","cta.call":"📞 095-361-4489","cta.whatsapp":"WhatsApp","footer.tagline":"Construction · Rénovation · Promotion immobilière","footer.contact_h":"Contact","footer.copyright":"© 2026 Groupe Solid. Tous droits réservés.","footer.legal":"Mentions légales","footer.privacy":"Politique de confidentialité","meta.title":"Groupe Solid — Construction · Rénovation · Promotion immobilière · Koh Samui","meta.description":"Groupe Solid — Construction, rénovation et promotion immobilière à Koh Samui depuis 30 ans.","meta.og_title":"Groupe Solid — Construction · Rénovation · Promotion immobilière · Koh Samui","meta.og_description":"Construction, rénovation et promotion immobilière à Koh Samui depuis 30 ans."},"en":{"hero.pretitle":"Projects built on","hero.title_html":"Solid <span class=\"accent\">foundations</span>","gallery.title_html":"From land<br>to <span class=\"accent\">delivery</span>.","why.title_html":"Solid,<br>like our name.","topbar.hours":"<span class=\"icon\">🕐</span> Mon–Sun 8 AM–8 PM","topbar.phone":"<span class=\"icon\">📞</span> +66 95 361 4489","topbar.email":"<span class=\"icon\">✉</span> solidconstructionsamui@gmail.com","nav.contact":"Contact","cat.construction":"Construction","cat.renovation":"Renovation","cat.promotion":"Development","cat.fourniture":"Furniture sourcing","cat.biens":"Properties for sale","cat.realisations":"Portfolio","hero.subtitle":"Construction, renovation, real-estate development — your trusted partner, from land to keys.","hero.cta1":"Browse our properties","hero.cta2":"Our portfolio","s1.p1":"Every project we deliver is supervised by our own team of qualified professionals.","s1.p2":"We provide a <strong>20-year structural warranty</strong>, contractual and firm, on every building we deliver.","s1.closing":"Building with Solid means the peace of mind of work well done, by people who've always done it.","s2.p1":"Every renovation begins with an <strong>in-depth study</strong> led by our team of specialists.","s2.p2":"Our <strong>in-house architecture studio</strong> designs the plans, 3D renderings and material choices with you.","s2.closing":"Renovating with Solid means entrusting your project to a complete team, under one roof.","s3.p1":"As a <strong>developer</strong>, we build our own real-estate projects on Koh Samui.","s3.p2":"<strong>Buying at the source</strong> means buying with no middleman, no agency margin.","s3.closing":"Buying a Solid project means acquiring a property whose every step we control.","s4.p1":"Our <strong>sourcing office in China</strong> and our <strong>international supplier network</strong> give us direct access to manufacturers.","s4.p2":"We can <strong>fully equip</strong> your property on terms usually reserved for big buyers.","s4.closing":"Equipping with Solid means buying at the source.","s5.p1":"In fifteen years on Koh Samui, we've built for hundreds of local landowners.","s5.p2":"No agency fees on our side. <strong>More competitive prices</strong> because the chain is shorter.","s5.closing":"Buying with Solid means accessing properties others will never see.","s5b.eyebrow":"Current selection","s5b.title":"Available properties","s5b.text":"Every property listed here is rigorously vetted by our teams.","biens.type_sale":"Land for sale","biens.type_rent":"Land for rent","biens.per_month":"per month","biens.per_rai_month":"/ rai / month","biens.per_rai":"/ rai","biens.cta":"View details","biens.footer_cta":"Interested in a property?","biens.tag_rent":"For rent","biens.tag_sale":"For sale","biens.lbl_area":"Area","biens.lbl_rent":"Rent","biens.lbl_price":"Price","biens.lbl_pricerai":"Price / rai","biens.lbl_advance":"Advance","biens.lbl_lease":"Lease","biens.years":"years","biens.contact":"Contact us","biens.b1_f1":"Flat land, coconut grove","biens.b1_f2":"Access road and electricity on site","biens.b1_f3":"Ideal for villa, resort or development","biens.b2_f1":"4 min from the beach (Fisherman's Village)","biens.b2_f2":"Access road and electricity on site","biens.b2_f3":"Ideal for a villa or investment","biens.b3_f1":"Large flat plot of about 18.9 rai","biens.b3_f2":"Concrete road access, electricity","biens.b3_f3":"Ideal for resort, hotel or development","biens.b4_f1":"Long-term lease — 30 years","biens.b4_f2":"Access road and electricity on site","biens.b4_f3":"Ideal for villa, resort or rental","biens.b5_f1":"50 m frontage on the main road","biens.b5_f2":"Opposite Holiday Inn / Fisherman's Wharf","biens.b5_f3":"Ideal for shop, restaurant or boutique","biens.b6_f1":"Very close to the main road","biens.b6_f2":"Flat land, regular shape","biens.b6_f3":"Ideal for shop, villa or rental","biens.b7_f1":"Very large plot — over 8 rai","biens.b7_f2":"Long frontage of about 305 m","biens.b7_f3":"Ideal for development, farm or rental villas","real.eyebrow":"Portfolio","real.footer_cta":"View all our projects","real.title":"Our projects","real.text":"Here's a glimpse of some of the projects we've delivered.","gallery.eyebrow":"Site in pictures","gallery.title_pre":"From land","gallery.title_accent":"to delivery","gallery.intro":"A look at a Solid project, from the first shovel to keys handed over.","gallery.phase1_title":"The land","gallery.phase1_sub":"Survey, earthworks, preparation","gallery.phase2_title":"Foundations","gallery.phase2_sub":"Footings, slabs, load-bearing columns","gallery.phase3_title":"Formwork & concrete","gallery.phase3_sub":"Rebar, formwork, structural pouring","gallery.phase4_title":"Going up","gallery.phase4_sub":"Bearing walls, levels, site overview","gallery.phase5_title":"Walls & roof","gallery.phase5_sub":"Masonry, steel framing, roofing","gallery.phase6_title":"Finishes & delivery","gallery.phase6_sub":"Plastering, facades, fit-out and keys handover","gallery.sig_title":"Solid Construction","gallery.sig_sub":"On site, every day, for thirty years.","why.eyebrow":"The Solid Group","why.h3":"Our signature.","why.p1":"Why Solid? Because in three decades, the Group has proven itself.","why.p2":"Our principles have never wavered: <strong>work well done, schedule respected, client heard</strong>.","why.p3":"Solid is also a loyal team. <strong>We operate like a large family business.</strong>","why.p4":"Solid, like our name: <strong>an authentic, lasting group that endures through time</strong>.","cta.eyebrow":"Start a project","cta.title":"Let's talk.","cta.text":"New build, renovation, property purchase, investment plan: a single call to get started.","cta.call":"📞 +66 95 361 4489","cta.whatsapp":"WhatsApp","footer.tagline":"Construction · Renovation · Real-estate development","footer.contact_h":"Contact","footer.copyright":"© 2026 Solid Group. All rights reserved.","footer.legal":"Legal notice","footer.privacy":"Privacy policy","meta.title":"Solid Group — Construction · Renovation · Real-estate development · Koh Samui","meta.description":"Solid Group — Construction, renovation and real-estate development on Koh Samui for 30 years.","meta.og_title":"Solid Group — Construction · Renovation · Real-estate development · Koh Samui","meta.og_description":"Construction, renovation and real-estate development on Koh Samui for 30 years."},"th":{"hero.pretitle":"โครงการที่สร้างบนรากฐาน","hero.title_html":"<span class=\"accent\">ที่แข็งแกร่ง</span>","gallery.title_html":"จากที่ดิน<br>ถึง<span class=\"accent\">ส่งมอบ</span>","why.title_html":"Solid<br>เหมือนชื่อของเรา","topbar.hours":"<span class=\"icon\">🕐</span> จันทร์–อาทิตย์ 8.00–20.00 น.","topbar.phone":"<span class=\"icon\">📞</span> 095-361-4489","topbar.email":"<span class=\"icon\">✉</span> solidconstructionsamui@gmail.com","nav.contact":"ติดต่อ","cat.construction":"การก่อสร้าง","cat.renovation":"การปรับปรุง","cat.promotion":"การพัฒนา","cat.fourniture":"เฟอร์นิเจอร์","cat.biens":"อสังหาฯ ขาย","cat.realisations":"ผลงาน","hero.subtitle":"ก่อสร้าง ปรับปรุง พัฒนาอสังหาฯ — พันธมิตรที่คุณวางใจได้ ตั้งแต่ที่ดินจนถึงส่งมอบกุญแจ","hero.cta1":"ดูอสังหาฯ ของเรา","hero.cta2":"ผลงานของเรา","s1.p1":"ทุกโครงการที่เราส่งมอบ ดูแลโดยทีมงานมืออาชีพของเราเอง","s1.p2":"เราให้<strong>การรับประกันโครงสร้าง 20 ปี</strong> ตามสัญญาอย่างชัดเจน","s1.closing":"สร้างกับ Solid คือความสบายใจในงานคุณภาพ โดยทีมที่ทำมาตลอด","s2.p1":"งานปรับปรุงทุกชิ้นเริ่มจาก<strong>การศึกษาเชิงลึก</strong>โดยทีมผู้เชี่ยวชาญของเรา","s2.p2":"<strong>ทีมสถาปนิกของเรา</strong>ออกแบบแปลน ภาพเรนเดอร์ 3D และเลือกวัสดุร่วมกับคุณ","s2.closing":"ปรับปรุงกับ Solid คือไว้วางใจให้ทีมงานครบครันดูแลทุกขั้นตอน","s3.p1":"ในฐานะ<strong>ผู้พัฒนาโครงการ</strong> เราสร้างโครงการของเราเองบนเกาะสมุย","s3.p2":"<strong>ซื้อตรงจากต้นทาง</strong>หมายถึงไม่มีคนกลาง ไม่มีค่านายหน้า","s3.closing":"ซื้อโครงการ Solid คือได้อสังหาฯ ที่เราดูแลทุกขั้นตอน","s4.p1":"<strong>สำนักงานจัดซื้อในจีน</strong>และ<strong>เครือข่ายซัพพลายเออร์ทั่วโลก</strong>ของเรา ทำให้เข้าถึงผู้ผลิตได้โดยตรง","s4.p2":"เราสามารถ<strong>ติดตั้งครบทั้งหลัง</strong>ในเงื่อนไขที่ปกติให้กับผู้ซื้อรายใหญ่","s4.closing":"เลือก Solid คือซื้อตรงจากแหล่งผลิต","s5.p1":"ในเวลาสิบห้าปีบนเกาะสมุย เราสร้างให้เจ้าของที่ดินท้องถิ่นหลายร้อยราย","s5.p2":"ไม่มีค่านายหน้าจากฝั่งเรา <strong>ราคาแข่งขันได้มากกว่า</strong>เพราะห่วงโซ่สั้นกว่า","s5.closing":"ซื้อกับ Solid คือเข้าถึงอสังหาฯ ที่คนอื่นไม่มีวันเห็น","s5b.eyebrow":"รายการปัจจุบัน","s5b.title":"อสังหาฯ ที่มีให้เลือก","s5b.text":"อสังหาฯ ทุกแห่งที่แสดงตรงนี้ ผ่านการตรวจสอบอย่างเข้มงวดจากทีมเรา","biens.type_sale":"ที่ดินขาย","biens.type_rent":"ที่ดินให้เช่า","biens.per_month":"ต่อเดือน","biens.per_rai_month":"/ ไร่ / เดือน","biens.per_rai":"/ ไร่","biens.cta":"ดูรายละเอียด","biens.footer_cta":"สนใจอสังหาฯ?","biens.tag_rent":"ให้เช่า","biens.tag_sale":"ขาย","biens.lbl_area":"พื้นที่","biens.lbl_rent":"ค่าเช่า","biens.lbl_price":"ราคา","biens.lbl_pricerai":"ราคา/ไร่","biens.lbl_advance":"ชำระล่วงหน้า","biens.lbl_lease":"สัญญาเช่า","biens.years":"ปี","biens.contact":"ติดต่อเรา","biens.b1_f1":"ที่ดินราบ สวนมะพร้าว","biens.b1_f2":"มีถนนเข้าและไฟฟ้าพร้อม","biens.b1_f3":"เหมาะสำหรับวิลล่า รีสอร์ท หรือโครงการจัดสรร","biens.b2_f1":"ห่างชายหาด 4 นาที (หมู่บ้านชาวประมง)","biens.b2_f2":"มีถนนเข้าและไฟฟ้าพร้อม","biens.b2_f3":"เหมาะสำหรับวิลล่าหรือการลงทุน","biens.b3_f1":"ที่ดินราบขนาดใหญ่ ประมาณ 18.9 ไร่","biens.b3_f2":"ทางเข้าถนนคอนกรีต มีไฟฟ้า","biens.b3_f3":"เหมาะสำหรับรีสอร์ท โรงแรม หรือโครงการจัดสรร","biens.b4_f1":"สัญญาเช่าระยะยาว 30 ปี","biens.b4_f2":"มีถนนเข้าและไฟฟ้าพร้อม","biens.b4_f3":"เหมาะสำหรับวิลล่า รีสอร์ท หรือปล่อยเช่า","biens.b5_f1":"หน้ากว้าง 50 ม. ติดถนนใหญ่","biens.b5_f2":"ตรงข้าม Holiday Inn / Fisherman's Wharf","biens.b5_f3":"เหมาะสำหรับร้านค้า ร้านอาหาร หรือบูทีค","biens.b6_f1":"ใกล้ถนนใหญ่มาก","biens.b6_f2":"ที่ดินราบ รูปทรงสม่ำเสมอ","biens.b6_f3":"เหมาะสำหรับร้านค้า วิลล่า หรือปล่อยเช่า","biens.b7_f1":"ที่ดินขนาดใหญ่มาก มากกว่า 8 ไร่","biens.b7_f2":"หน้ากว้างยาวประมาณ 305 ม.","biens.b7_f3":"เหมาะสำหรับโครงการจัดสรร ฟาร์ม หรือวิลล่าปล่อยเช่า","real.eyebrow":"ผลงาน","real.footer_cta":"ดูผลงานทั้งหมดของเรา","real.title":"โครงการของเรา","real.text":"นี่คือตัวอย่างผลงานบางส่วนที่เราส่งมอบ","gallery.eyebrow":"ภาพหน้างาน","gallery.title_pre":"จากที่ดิน","gallery.title_accent":"ถึงส่งมอบ","gallery.intro":"ภาพรวมของโครงการ Solid ตั้งแต่จอบแรกจนส่งมอบกุญแจ","gallery.phase1_title":"ที่ดิน","gallery.phase1_sub":"สำรวจ ปรับพื้นที่ เตรียมงาน","gallery.phase2_title":"ฐานราก","gallery.phase2_sub":"ฐาน คาน เสารับน้ำหนัก","gallery.phase3_title":"แบบหล่อและคอนกรีต","gallery.phase3_sub":"ผูกเหล็ก ทำแบบ เทคอนกรีต","gallery.phase4_title":"ขึ้นโครงสร้าง","gallery.phase4_sub":"ผนังรับน้ำหนัก ชั้นต่างๆ ภาพรวมหน้างาน","gallery.phase5_title":"ผนังและหลังคา","gallery.phase5_sub":"งานก่อ โครงเหล็ก งานหลังคา","gallery.phase6_title":"งานตกแต่งและส่งมอบ","gallery.phase6_sub":"ฉาบปูน ผิวภายนอก ตกแต่ง และส่งกุญแจ","gallery.sig_title":"Solid Construction","gallery.sig_sub":"อยู่หน้างานทุกวัน มากว่าสามสิบปี","why.eyebrow":"เกี่ยวกับกลุ่ม Solid","why.h3":"ลายเซ็นของเรา","why.p1":"ทำไมต้อง Solid? เพราะตลอดสามทศวรรษ กลุ่มของเราพิสูจน์ตัวเองมาแล้ว","why.p2":"หลักการของเราไม่เคยเปลี่ยน: <strong>ทำงานให้ดี เคารพกำหนดเวลา รับฟังลูกค้า</strong>","why.p3":"Solid ยังหมายถึงทีมงานที่ภักดี <strong>เราดำเนินงานเหมือนธุรกิจครอบครัวขนาดใหญ่</strong>","why.p4":"Solid เหมือนชื่อของเรา: <strong>กลุ่มที่จริงแท้ ยั่งยืน ก้าวข้ามกาลเวลา</strong>","cta.eyebrow":"เริ่มต้นโครงการ","cta.title":"มาคุยกันไหม?","cta.text":"ก่อสร้างใหม่ ปรับปรุง ซื้ออสังหาฯ หรือลงทุน — โทรเดียวก็เริ่มได้","cta.call":"📞 095-361-4489","cta.whatsapp":"WhatsApp","footer.tagline":"ก่อสร้าง · ปรับปรุง · พัฒนาอสังหาฯ","footer.contact_h":"ติดต่อ","footer.copyright":"© 2026 Solid Group สงวนลิขสิทธิ์","footer.legal":"ข้อมูลทางกฎหมาย","footer.privacy":"นโยบายความเป็นส่วนตัว","meta.title":"Solid Group — ก่อสร้าง · ปรับปรุง · พัฒนาอสังหาฯ · เกาะสมุย","meta.description":"Solid Group — ก่อสร้าง ปรับปรุง พัฒนาอสังหาฯ บนเกาะสมุยมากว่า 30 ปี","meta.og_title":"Solid Group — ก่อสร้าง · ปรับปรุง · พัฒนาอสังหาฯ · เกาะสมุย","meta.og_description":"ก่อสร้าง ปรับปรุง พัฒนาอสังหาฯ บนเกาะสมุยมากว่า 30 ปี"}};
+const SUPPORTED_LANGS = ['fr','en','th'];
+const DEFAULT_LANG = 'fr';
+function getInitialLang() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const urlLang = urlParams.get('lang');
+  if (urlLang && SUPPORTED_LANGS.includes(urlLang)) return urlLang;
+  try { const stored = localStorage.getItem('solid_lang'); if (stored && SUPPORTED_LANGS.includes(stored)) return stored; } catch(e) {}
+  const navLang = (navigator.language || 'fr').slice(0,2).toLowerCase();
+  if (SUPPORTED_LANGS.includes(navLang)) return navLang;
+  return DEFAULT_LANG;
+}
+function applyLang(lang) {
+  if (!SUPPORTED_LANGS.includes(lang)) lang = DEFAULT_LANG;
+  const dict = I18N[lang] || {};
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el => { const k = el.getAttribute('data-i18n'); if (dict[k] !== undefined) el.textContent = dict[k]; });
+  document.querySelectorAll('[data-i18n-html]').forEach(el => { const k = el.getAttribute('data-i18n-html'); if (dict[k] !== undefined) el.innerHTML = dict[k]; });
+  document.querySelectorAll('[data-i18n-attr]').forEach(el => { const [attr,k] = el.getAttribute('data-i18n-attr').split('|'); if (dict[k] !== undefined) el.setAttribute(attr, dict[k]); });
+  document.querySelectorAll('.lang-btn').forEach(btn => { btn.classList.toggle('active', btn.getAttribute('data-lang') === lang); });
+  try { localStorage.setItem('solid_lang', lang); } catch(e) {}
+}
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.lang-btn').forEach(btn => { btn.addEventListener('click', () => applyLang(btn.getAttribute('data-lang'))); });
+  applyLang(getInitialLang());
+});
+</script>
+</body>
+</html>
