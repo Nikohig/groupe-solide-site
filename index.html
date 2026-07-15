@@ -228,6 +228,9 @@
   .back-top { position:fixed; top:14px; right:14px; z-index:9500; background:rgba(10,10,10,.88); border:1px solid var(--accent); color:var(--accent); font-family:'Bebas Neue',sans-serif; font-size:15px; letter-spacing:2px; padding:9px 16px 7px; cursor:pointer; opacity:0; pointer-events:none; transition:opacity .3s ease, background .3s ease; }
   .back-top.show { opacity:1; pointer-events:auto; }
   .back-top:hover { background:var(--accent); color:#0a0a0a; }
+  @keyframes heroLive { 0% { transform:scale(1) translate(0,0); } 100% { transform:scale(1.09) translate(-1.2%,-1%); } }
+  .hero-bg { animation: heroLive 22s ease-in-out infinite alternate; will-change: transform; }
+  @media (prefers-reduced-motion: reduce){ .hero-bg { animation:none; } }
   @media (max-width:600px){ .back-top { top:10px; right:10px; font-size:13px; padding:7px 12px 5px; } }
   @media (max-width:600px){ .lb-btn{ font-size:42px; padding:10px; } }
   .section-footer { margin-top: 60px; text-align: center; }
