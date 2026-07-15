@@ -223,6 +223,8 @@
   .lb-count { position:fixed; bottom:16px; left:50%; transform:translateX(-50%); color:#ccc; font-size:13px; letter-spacing:2px; z-index:10000; }
   .chantier-photo { position:relative; }
   .photo-num { position:absolute; bottom:6px; right:6px; background:rgba(10,10,10,.78); color:var(--accent); font-family:'Bebas Neue',sans-serif; font-size:15px; letter-spacing:1px; padding:2px 8px 1px; border:1px solid rgba(230,168,33,.45); pointer-events:none; }
+  .projet-thumbs a { position:relative; }
+  .photo-num--sm { font-size:11px; padding:1px 5px 0; bottom:4px; right:4px; }
   @media (max-width:600px){ .lb-btn{ font-size:42px; padding:10px; } }
   .section-footer { margin-top: 60px; text-align: center; }
   /* ============ Réalisations ============ */
@@ -1014,6 +1016,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.querySelectorAll('.projet-card').forEach(function(card){
     var links=Array.prototype.slice.call(card.querySelectorAll('.projet-hero, .projet-thumbs a'));
+    links.forEach(function(a,i){
+      var b=document.createElement('span');
+      b.className='photo-num'+(a.classList.contains('projet-hero')?'':' photo-num--sm');
+      b.textContent=(i+1<10?'0':'')+(i+1);
+      a.appendChild(b);
+    });
     var list=links.map(function(a){return a.getAttribute('href');});
     links.forEach(function(a,i){ a.addEventListener('click',function(e){ e.preventDefault(); openLb(list,i); }); });
   });
